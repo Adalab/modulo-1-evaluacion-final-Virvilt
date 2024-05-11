@@ -1,0 +1,43 @@
+@import './reset.scss';
+@import './components/icon_menu.scss';
+@import './page_sections/principal_slider.scss';
+@import './components/icon_section.scss';
+
+
+:root {
+  background-color: #333333;
+  color: white;
+  font: 16px 'Roboto', arial, sans;
+  font: 40px 'Arvo';
+}
+
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
