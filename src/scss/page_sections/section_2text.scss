@@ -1,74 +1,84 @@
 .section_1 {
   width: 100%;
-  padding: 0 17px 30px 17px;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  justify-content: center;
+  display: flex;
 
-    .introduction_text {
-      font-family: "Roboto", sans-serif;
-      font-weight: 400px;
-      font-style: normal;
-      font-size: 14px;
-      color: #6c933e;
-      text-align: left;
-      margin: 34px 0 5px 0;
+  .container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 17px;
+  }
 
-      @media (min-width: 768px) {
-        font-size: 16px;
-      }
-
-      @media (min-width: 1280px) {
-        font-size: 16px;
-      }
-    }
-
-    .tittle {
-      font-family: "Arvo", serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 22px;
-      color: #000000;
-      text-align: left;
-      margin: 10px 0 5px 0;
-      line-height: 1;
-
-      @media (min-width: 768px) {
-        font-size: 32px;
-        padding: 21px 0px 12px 0px;
-        text-align: 30px;
-      }
-
-      @media (min-width: 1280px) {
-        font-size: 32px;
-        text-align: 30px;
-      }
-    }
-
-    .paragraph {
-      font-family: "Roboto", regular;
-      font-weight: 400px;
-      font-style: normal;
-      font-size: 18px;
-      color: #4a4a4a;
-      text-align: left;
-      margin: 15px 0 42px 0;
-    }
+  .introduction_text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 14px;
+    color: #6c933e;
+    text-align: left;
+    margin: 34px 0 5px 0;
 
     @media (min-width: 768px) {
-      font-size: 20px;
-      padding: 21px 40px 12px 40px;
+      font-size: 16px;
+    }
+
+    @media (min-width: 1280px) {
+      font-size: 16px;
+    }
+  }
+
+  .tittle {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    text-align: left;
+    margin: 10px 0 5px 0;
+    line-height: 1;
+
+    @media (min-width: 768px) {
+      font-size: 32px;
+      padding: 21px 0px 12px 0px;
       text-align: 30px;
     }
 
     @media (min-width: 1280px) {
-      font-size: 20px;
+      font-size: 32px;
       text-align: 30px;
     }
+  }
+
+  .paragraph {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: #4a4a4a;
+    text-align: left;
+    margin: 15px 0 42px 0;
+    line-height: 1.5;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    padding: 21px 40px 12px 40px;
+    text-align: 30px;
+  }
 
   @media (min-width: 1280px) {
     font-size: 20px;
-    padding: 22px 170px 41px 170px;
     text-align: 30px;
   }
+
+  @media (min-width: 1280px) {
+    font-size: 20px;
+  }
 }
+/* ------------------------------------------------------------- */
 
 .button {
   display: inline-block;
@@ -77,6 +87,13 @@
   padding-inline: 30px;
   border: solid 2px #6c933e;
   background-color: #fff;
+  font-family: "Roboto", regular;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 20px;
+  color: #6c933e;
+  line-height: 45px;
+  text-align: center;
   border-radius: 30px;
   margin-bottom: 20px;
   text-decoration: none;
@@ -85,6 +102,7 @@
     font-size: 20px;
     padding: 12px 40px 12px 40px;
     text-align: 30px;
+    line-height: 20px;
   }
 
   @media (min-width: 1280px) {
@@ -93,17 +111,14 @@
     font-size: 20px;
     text-align: 45px;
     margin-bottom: 39px;
-
+    line-height: 20px;
   }
+}
 
-  .cta {
-    font-family: "Roboto", regular;
-    font-weight: 400px;
-    font-style: normal;
-    font-size: 18px;
-    color: #6c933e;
-    justify-content: center;
-    text-decoration: none;
-  }
+.button:hover {
+  background-color: #8fa07c;
+  color: #fff;
+  transform: scale(1.1, 1.1);
+  transition: 1s;
 }
 

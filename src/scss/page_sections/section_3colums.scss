@@ -4,6 +4,9 @@
   padding-top: 30px;
   padding-bottom: 50px;
   background-color: #d9e4cc;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 
   .subtittle {
     font-family: "Arvo", bold;
@@ -48,6 +51,12 @@
   }
 }
 
+.container {
+  width: 100%;
+  max-width: 1280px;
+  justify-content: center;
+}
+
 /* ----------------------------------------------------- */
 
 .container-grid {
@@ -59,7 +68,7 @@
   grid-column: span 6;
   grid-row: span 3;
   text-align: center;
-  margin: 20px;
+  margin: 1p0x;
 
   .pic {
     width: 114px;
@@ -82,22 +91,19 @@
   }
 }
 .tittle_pic {
-    font-family: "Arvo", bold;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    color: #000000;
-    text-align: center;
-    margin: 5px 0 5px 0;
-  }
-  
+  font-family: "Arvo", bold;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
 
 /* ----------------------------------------------------- */
 
-
-
 .button_green {
-  grid-column: span 4;
+  grid-column: span 3;
   grid-row: span 1;
   width: 184px;
   height: 47px;
@@ -105,13 +111,14 @@
   border-radius: 30px;
   margin-bottom: 20px;
   text-decoration: none;
+  border: 0;
 
   @media (min-width: 768px) {
     font-size: 20px;
   }
 
   @media (min-width: 1280px) {
-    width: 140%;
+    width: 140px;
     height: 45px;
     font-size: 20px;
     text-align: 45px;
@@ -119,6 +126,7 @@
   }
 
   .cta {
+    display: grid;
     font-family: "Roboto", regular;
     font-weight: 400px;
     font-style: normal;
@@ -127,5 +135,15 @@
     justify-content: center;
     text-align: center;
     text-decoration: none;
+  }
+}
+
+.button_green:hover {
+  background-color: #8fa07c;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    transform: scale(1.1, 1.1);
+    transition: 1s;
   }
 }

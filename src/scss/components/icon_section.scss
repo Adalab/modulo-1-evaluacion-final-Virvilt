@@ -1,8 +1,10 @@
 .scroll_1 {
-  margin: 17px;
+  margin: 35px;
   align-items: center;
   text-align: center;
   justify-content: center;
+  transform: scale(1.1, 1.1);
+  transition: 1s;
 }
 
 .ico_scroll {
@@ -13,4 +15,9 @@
   padding: 8px;
   justify-content: center;
   align-items: center;
+}
+
+.ico_scroll:hover {
+  transform: scale(1.2, 1.2);
+  transition: 0,5s;
 }

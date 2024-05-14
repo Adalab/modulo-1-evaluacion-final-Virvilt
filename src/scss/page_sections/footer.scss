@@ -1,39 +1,94 @@
-
-
 footer {
-    width: 100%;
-    height: 100%;
-    text-align: center ;
-    padding-bottom: 50px;
-    background-color: #4a4a4a;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #4a4a4a;
 
-    .scroll_1 {
-        margin: 17px;
-        align-items: center;
-        justify-content: center;
-      }
-      
-    .ico_scroll {
-        width: 45px;
-        height: 45px;
-        background-color: #fff;
-        border-radius: 30px;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: -20px;
-      }
-      
+  .ico_scroll {
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -20px;
+  }
 }
 
 .ico_scroll:hover {
-    width: 55px;
-    height: 55px;
+  transform: scale(1.1, 1.1);
+  transition: 0,5s;
 }
 
 
+/* ---------------------------------------------- */
 
+.nav_footer {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    list-style-type: none;
+  }
 
+  @media (min-width: 1280px) {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    list-style-type: none;
+  }
+}
 
+.menu_list {
+  order: 1;
+  margin-bottom: 15px;
+  line-height: 15px;
+  list-style-type: none;
 
+  @media (min-width: 768px) {
+    order: 2;
+    padding-inline: 95px;
+    margin-bottom: 0;
+  }
+}
 
+.rrss {
+  order: 2;
+  margin-bottom: 15px;
+  line-height: 15px;
+  list-style-type: none;
+
+  @media (min-width: 768px) {
+    order: 3;
+    margin-bottom: 0;
+  }
+}
+.copyright {
+  order: 3;
+  margin-bottom: 15px;
+  line-height: 15px;
+  list-style-type: none;
+
+  @media (min-width: 768px) {
+    order: 1;
+    margin-bottom: 0;
+  }
+}
+
+.menu_link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration-line: none;
+}
+
+.heart_icon {
+  width: 25px;
+  padding-inline: 5px;
+  color: white;
+}
